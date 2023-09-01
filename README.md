@@ -123,4 +123,5 @@ By default each core gets 1GB
 
 # Basic Commands to Keep Track of SLURM Jobs
 `sacct -u username --format=JobID,JobName,State,Start,End` #show all jobs submitted, with timestamps
+
 `squeue -u username` #show currently running jobs
